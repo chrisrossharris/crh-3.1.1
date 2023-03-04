@@ -10,7 +10,7 @@
 }
 
 .about__header__title {
-  font: 28rem/1 $font-playfair;
+  font: 22rem/1.1 $font-playfair;
   display: inline-block;
   text-align: left;
 
@@ -21,7 +21,7 @@
 
 .about__header__title__text {
   display: flex;
-  justify-content: space-between;
+  
   overflow: hidden;
 
   span {
