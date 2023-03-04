@@ -1,10 +1,10 @@
-# BIZAR.RO
+# CRH
 
 [![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
-[![Screenshot of Website](bizarro.jpg)](https://bizar.ro/)
+[![Screenshot of Website](harris.jpg)](https://chrisrossharris.com/)
 
-This is the repository of [Bizarro](http://bizar.ro/) portfolio. The website was submitted to [Awwwards](https://www.awwwards.com/) in [December 14, 2020](https://www.awwwards.com/sites/bizarro) but unfortunately didn't made to score a Site of The Day.
+This is the repository of [Chris Ross Harris](http://chrisrossharris.com/) portfolio. The original is the repository of [Bizarro](http://bizar.ro/) portfolio.
 
 # Overview
 
@@ -16,7 +16,7 @@ You need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.c
 
 ```sh
 # Clone the project.
-git clone https://github.com/lhbzr/bizar.ro.git
+git clone https://github.com/chrisrossharris/crh-3.1.1.git
 
 # Install npm depedencies.
 npm install
