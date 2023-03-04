@@ -5,4 +5,4 @@ function gtag() {
 }
 
 gtag('js', new Date());
-gtag('config', 'G-KTVWMV4PLR');
+gtag('config', 'G-M9E5CJ3RC2');
