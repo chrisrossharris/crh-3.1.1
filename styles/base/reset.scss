@@ -1,8 +1,9 @@
 html {
-  background: $color-pine-tree;
+  background: $color-lightest;
   box-sizing: border-box;
-  color: $color-iron;
+  color: $color-almost-black;
   font-size: calc(100vw / 1920 * 10);
+  font-kerning: auto;
   height: 100%;
   left: 0;
   overflow: hidden;
@@ -19,7 +20,7 @@ html {
 }
 
 body {
-  font-family:  $font-libre;
+  font-family:  $font-neue-haas-unica;
   height: 100%;
   left: 0;
   opacity: 1;

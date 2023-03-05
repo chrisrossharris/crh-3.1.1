@@ -20,7 +20,9 @@
 }
 
 .about__section__title {
-  font: 10rem/0.95 $font-playfair;
+  font: 10rem/0.95 $font-neue-haas-unica;
+  letter-spacing: -.05em;
+  font-kerning: auto;
   margin-bottom: auto;
   padding-top: 10.5rem;
   position: relative;
@@ -72,7 +74,7 @@
 }
 
 .about__section__number {
-  font: 50rem/1 $font-playfair;
+  font: 50rem/1 $font-neue-haas-unica;
   height: 50rem;
   margin-top: -4.3rem;
 
@@ -95,7 +97,7 @@
 .about__section__list__item {
   overflow: hidden;
   position: relative;
-  
+
 }
 
 .about__section__list__dash {

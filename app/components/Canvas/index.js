@@ -11,9 +11,9 @@ import Media from './Media'
 export default class {
   constructor ({ url }) {
     this.background = {
-      r: 21,
-      g: 28,
-      b: 19
+      r: 245,
+      g: 245,
+      b: 245
     }
 
     this.url = url

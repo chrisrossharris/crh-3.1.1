@@ -10,7 +10,8 @@
 }
 
 .about__header__title {
-  font: 22rem/1.1 $font-playfair;
+  font: 22rem/1.1 $font-neue-haas-unica;
+  letter-spacing: -0.03em;
   display: inline-block;
   text-align: left;
 
@@ -21,7 +22,7 @@
 
 .about__header__title__text {
   display: flex;
-  
+
   overflow: hidden;
 
   span {

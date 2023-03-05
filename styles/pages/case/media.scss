@@ -28,7 +28,7 @@
 }
 
 .case__gallery__media__box {
-  background: $color-iron;
+  background: $color-pine-tree;
   display: block;
   font-size: 0;
   margin: auto;
@@ -48,7 +48,7 @@
 
   span {
     animation: loading 0.4s ease infinite alternate;
-    background: $color-pine-tree;
+    background: $color-iron;
     border-radius: 50%;
     display: inline-block;
     height: 1rem;

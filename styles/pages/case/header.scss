@@ -28,12 +28,14 @@
 }
 
 .case__title {
-  font: 15rem/1.3 $font-playfair;
+  font: 15rem/1.3 $font-neue-haas-unica;
+  letter-spacing: -.05em;
+  font-kerning: auto;
   overflow: hidden;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   position: relative;
   text-align: center;
-  transform: translateY(50%);
+  transform: translateY(0%);
   white-space: nowrap;
   z-index: 1;
 
@@ -104,7 +106,7 @@
 
 .case__information__detail__title {
   display: block;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
 }

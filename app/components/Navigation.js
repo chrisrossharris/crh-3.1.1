@@ -42,7 +42,7 @@ export default class extends Component {
 
   onEasterEgg () {
     const value = random(0, 360, 0.01)
-    const background = `hsl(${value}deg 19% 9%)`
+    const background = `hsl(${value}deg 98% 98%)`
 
     document.documentElement.style.background = background
 

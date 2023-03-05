@@ -17,9 +17,12 @@
   position: absolute;
 
   &:nth-child(1) {
-    font: 3rem $font-playfair;
+    font: 3rem $font-neue-haas-unica;
+    letter-spacing: -.05em;
+    font-kerning: auto;
     left: 5rem;
     top: 5rem;
+    font-weight: 400;
   }
 
   &:nth-child(2) {
