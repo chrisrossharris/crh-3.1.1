@@ -23,7 +23,8 @@
 .home__background {
   @extend %cover;
 
-  color: $color-lightest;
+  
+  filter: invert(1);
   display: none;
   pointer-events: none;
   z-index: 10;
@@ -68,7 +69,9 @@
   white-space: nowrap;
 
   @include media('<=phone') {
-    font-size: 4rem;
+    font: 4rem/1.1 $font-neue-haas-unica;;
+    letter-spacing: -.04em;
+    font-kerning: auto;
   }
 }
 

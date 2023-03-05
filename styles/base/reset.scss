@@ -19,6 +19,11 @@ html {
   }
 }
 
+.dark-mode {
+  background: $color-almost-black;
+  color: $color-lightest;
+}
+
 body {
   font-family:  $font-neue-haas-unica;
   height: 100%;

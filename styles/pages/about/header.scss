@@ -12,11 +12,14 @@
 .about__header__title {
   font: 22rem/1.1 $font-neue-haas-unica;
   letter-spacing: -0.03em;
+  font-kerning: auto;
   display: inline-block;
   text-align: left;
 
   @include media('<=phone') {
-    font-size: 5.5rem;
+    font: 4.6rem/1.1 $font-neue-haas-unica;
+    letter-spacing: -0.03em;
+    font-kerning: auto;
   }
 }
 

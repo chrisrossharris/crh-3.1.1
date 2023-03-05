@@ -40,7 +40,17 @@ export default class extends Component {
     })
   }
 
+
   onEasterEgg () {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+
+  }
+
+
+  /**
+  onEasterEgg () {
+
     const value = random(0, 360, 0.01)
     const background = `hsl(${value}deg 98% 98%)`
 
@@ -60,7 +70,7 @@ export default class extends Component {
       }
     }
   }
-
+   */
   /**
    * Listeners.
    */
