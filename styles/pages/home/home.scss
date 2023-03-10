@@ -22,7 +22,7 @@
 
 .home__background {
   @extend %cover;
-  color: $color-almost-black;
+  color: $color-lightest;
   display: none;
   pointer-events: none;
   z-index: 10;

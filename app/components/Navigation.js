@@ -68,13 +68,16 @@ export default class extends Component {
 
     if (this.canvas && currentBackground[0] == '245' ) {
         this.canvas.background = {
-              r: 0,
-              g: 0,
-              b: 0
+              r: 24,
+              g: 24,
+              b: 24
             }
-        document.documentElement.style.background = 'rgb(0 0 0)'
+        document.documentElement.style.background = 'rgb(24 24 24)'
         document.body.classList.toggle("dark-mode");
-        this.aboutGallery.style.color = 'rgb(0 0 0)'
+        this.aboutGallery.style.color = 'rgb(24 24 24)'
+        this.homeBottom.style.background = `linear-gradient(to bottom, transparent 0%, rgb(24 24 24) 100%)`
+        this.homeTop.style.background = `linear-gradient(to bottom, rgb(24 24 24) 0%, transparent 100%)`
+        this.aboutGallery.style.color = 'rgb(24 24 24)'
       }
       else{
         this.canvas.background = {
