@@ -19,10 +19,7 @@ html {
   }
 }
 
-.dark-mode {
-  background: $color-almost-black;
-  color: $color-lightest;
-}
+
 
 body {
   font-family:  $font-neue-haas-unica;
@@ -34,6 +31,11 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.dark-mode {
+  background: $color-almost-black !important;
+  color: $color-iron;
 }
 
 *,

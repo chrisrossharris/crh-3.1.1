@@ -1,5 +1,5 @@
 .about__gallery {
-  color: currentColor;
+  color: $color-lightest;
   font-size: 0;
   opacity: 0;
   margin-bottom: 20rem;
@@ -12,7 +12,6 @@
 
   &:before {
     border: 0.5rem solid currentColor;
-    filter: invert(1);
     bottom: 0;
     content: '';
     left: 0;
@@ -53,7 +52,6 @@
 
   &:before {
     background: currentColor;
-    filter: invert(1);
     bottom: -0.5rem;
     content: '';
     left: -0.5rem;
@@ -66,7 +64,6 @@
     &:before {
       background: none;
       border: 1.5rem solid currentColor;
-      filter: invert(1);
       bottom: -0.5rem;
       content: '';
       left: -0.5rem;

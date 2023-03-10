@@ -39,7 +39,7 @@ export default class {
 
     this.createList()
 
-    const font = new FontFaceObserver('Ampersand', 10000)
+    const font = new FontFaceObserver('neue-haas-unica', 10000)
 
     font.load().then(_ => {
       this.onResize()
