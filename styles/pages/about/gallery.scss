@@ -1,5 +1,5 @@
 .about__gallery {
-  color: $color-lightest;
+  color: $color-pine-tree;
   font-size: 0;
   opacity: 0;
   margin-bottom: 20rem;
@@ -93,9 +93,9 @@
 
 .about__gallery__text {
   @extend %link;
-  padding-top: 1em;
+
   bottom: 1rem;
-  color: currentColor;
+  color: $color-iron;
   font-size: 1.6rem;
   line-height: 1.1;
   position: absolute;
