@@ -10,22 +10,19 @@
 }
 
 .about__header__title {
-  font: 22rem/1.1 $font-neue-haas-unica;
+  font: 22rem/1.1 $font-neue-haas-unica;;
   letter-spacing: -0.03em;
-  font-kerning: auto;
+  font-kerning: normal;
   display: inline-block;
   text-align: left;
 
   @include media('<=phone') {
-    font: 4.6rem/1.1 $font-neue-haas-unica;
-    letter-spacing: -0.03em;
-    font-kerning: auto;
+    font-size: 4.6rem;
   }
 }
 
 .about__header__title__text {
   display: flex;
-
   overflow: hidden;
 
   span {

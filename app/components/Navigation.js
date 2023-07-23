@@ -40,15 +40,9 @@ export default class extends Component {
     })
   }
 
-
   onEasterEgg () {
-
-
-    const background = 'rgb(245 245 245)'
-
-    const currentBackground = document.documentElement.style.background.replace('rgb(', '').replace(')', '').replace(/ /g, '').split(',')
-    console.log(currentBackground)
-
+    const value = random(0, 360, 0.01)
+    const background = `hsl(${value}deg 19% 9%)`
 
     document.documentElement.style.background = background
 
@@ -56,62 +50,16 @@ export default class extends Component {
     this.homeTop.style.background = `linear-gradient(to bottom, ${background} 0%, transparent 100%)`
     this.aboutGallery.style.color = background
 
-
     const canvas = document.documentElement.style.background.replace('rgb(', '').replace(')', '').replace(/ /g, '').split(',')
 
-    if (currentBackground[0] == '245' ) {
-        console.log('light')
+    if (this.canvas) {
+      this.canvas.background = {
+        r: canvas[0],
+        g: canvas[1],
+        b: canvas[2]
       }
-    else{
-      console.log('dark')
     }
-
-    if (this.canvas && currentBackground[0] == '245' ) {
-        this.canvas.background = {
-              r: 24,
-              g: 24,
-              b: 24
-            }
-        document.documentElement.style.background = 'rgb(24 24 24)'
-        document.body.classList.toggle("dark-mode");
-        this.aboutGallery.style.color = 'rgb(24 24 24)'
-        this.homeBottom.style.background = `linear-gradient(to bottom, transparent 0%, rgb(24 24 24) 100%)`
-        this.homeTop.style.background = `linear-gradient(to bottom, rgb(24 24 24) 0%, transparent 100%)`
-        this.aboutGallery.style.color = 'rgb(24 24 24)'
-      }
-      else{
-        this.canvas.background = {
-              r: 245,
-              g: 245,
-              b: 245
-            }
-        document.body.classList.toggle("dark-mode");
-      }
   }
-
-
-
-  // onEasterEgg () {
-  //
-  //   const value = random(0, 360, 0.01)
-  //   const background = `hsl(${value}deg 99% 99%)`
-  //
-  //   document.documentElement.style.background = background
-  //
-  //   this.homeBottom.style.background = `linear-gradient(to bottom, transparent 0%, ${background} 100%)`
-  //   this.homeTop.style.background = `linear-gradient(to bottom, ${background} 0%, transparent 100%)`
-  //   this.aboutGallery.style.color = background
-  //
-  //   const canvas = document.documentElement.style.background.replace('rgb(', '').replace(')', '').replace(/ /g, '').split(',')
-  //
-  //   if (this.canvas) {
-  //     this.canvas.background = {
-  //       r: canvas[0],
-  //       g: canvas[1],
-  //       b: canvas[2]
-  //     }
-  //   }
-  // }
 
   /**
    * Listeners.

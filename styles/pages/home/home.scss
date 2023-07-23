@@ -22,7 +22,8 @@
 
 .home__background {
   @extend %cover;
-  color: $color-lightest;
+
+  color: $color-pine-tree;
   display: none;
   pointer-events: none;
   z-index: 10;
@@ -61,15 +62,15 @@
 }
 
 .home__item {
-  font: 15rem/0.9 $font-neue-haas-unica;;
+  font: 15rem/1 $font-neue-haas-unica;
   letter-spacing: -.05em;
-  font-kerning: auto;
+  font-kerning: normal;
   white-space: nowrap;
 
   @include media('<=phone') {
-    font: 4rem/1.1 $font-neue-haas-unica;;
+    font-size: 4rem;
+    line-height: -.04em;
     letter-spacing: -.04em;
-    font-kerning: auto;
   }
 }
 
@@ -83,47 +84,47 @@
   pointer-events: none;
   position: relative;
 
-  .home__item--xbox-museum & {
-    transform: translateX(-4.4rem);
+  /* .home__item--work-garage-sale & {
+    transform: translateX(-8.4rem);
   }
 
-  .home__item--bbdo & {
-    transform: translateX(-0.7rem);
+  .home__item--human-x & {
+    transform: translateX(12rem);
   }
 
-  .home__item--peggy-gou & {
-    transform: translateX(32.3rem);
+  .home__item--bird-dog-mafia & {
+    transform: translateX(-6.3rem);
   }
 
-  .home__item--isabel-moranta & {
-    transform: translateX(-2rem);
+  .home__item--revenuers-cut & {
+    transform: translateX(15rem);
   }
 
-  .home__item--floema & {
+  .home__item--mission-gait & {
     transform: translateX(-0.6rem);
   }
 
-  .home__item--garoa-skincare & {
+  .home__item--omy-gelato & {
     transform: translateX(-13.2rem);
   }
 
-  .home__item--design-embraced & {
+  .home__item--on-the-town & {
     transform: translateX(-11.3rem);
   }
 
-  .home__item--kacper-chlebowicz & {
+  .home__item--har-tru & {
     transform: translateX(4.7rem);
   }
 
-  .home__item--trolli & {
+  .home__item--lc-king & {
     transform: translateX(-24.3rem);
   }
 
-  .home__item--adventure-time & {
+  .home__item--cj-deluca & {
     transform: translateX(7.5rem);
   }
 
-  .home__item--studio-maertens & {
+  .home__item--richmond-va & {
     transform: translateX(24.5rem);
   }
 
@@ -214,11 +215,11 @@
   @include media('<=phone') {
     transform: none !important;
     width: 100%;
-  }
+  } */
 }
 
 .home__link__media {
-  background: $color-almost-black;
+  background: $color-iron;
   bottom: 2.2rem;
   height: 10.3rem;
   margin: 0 1rem;

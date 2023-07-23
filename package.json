@@ -1,5 +1,5 @@
 {
-  "name": "chrisrossharris",
+  "name": "crh",
   "version": "1.0.0",
   "scripts": {
     "start": "npm run development",
@@ -52,8 +52,5 @@
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.7.1",
     "webpack-merge": "^4.2.1"
-  },
-  "dependencies": {
-    "three": "^0.150.1"
   }
 }

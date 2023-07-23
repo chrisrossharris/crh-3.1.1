@@ -17,16 +17,36 @@ const dirNode = 'node_modules'
 const folders = [
   'index.html',
   'about/index.html',
-  'case/bird-dog-mafia/index.html',
-  'case/work-garage-sale/index.html',
-  'case/revenuers-cut/index.html',
-  'case/mission-gait/index.html',
-  'case/omy-gelato/index.html',
-  'case/on-the-town/index.html',
-  'case/har-tru/index.html',
-  'case/lc-king/index.html',
-  'case/cj-delua/index.html',
-  'case/richmond-va/index.html'
+  'case/xbox-museum/index.html',
+  'case/bbdo/index.html',
+  'case/peggy-gou/index.html',
+  'case/isabel-moranta/index.html',
+  'case/floema/index.html',
+  'case/garoa-skincare/index.html',
+  'case/design-embraced/index.html',
+  'case/kacper-chlebowicz/index.html',
+  'case/trolli/index.html',
+  'case/adventure-time/index.html',
+  'case/studio-maertens/index.html',
+  'case/inbound/index.html',
+  'case/redis/index.html',
+  'case/kaleidoz/index.html',
+  'case/erika-moreira/index.html',
+  'case/bruno-arizio/index.html',
+  'case/dominic-berzins/index.html',
+  'case/pagethink/index.html',
+  'case/neoway/index.html',
+  'case/cult/index.html',
+  'case/movida/index.html',
+  'case/lufthansa-2/index.html',
+  'case/tiaa/index.html',
+  'case/lufthansa-1/index.html',
+  'case/shell/index.html',
+  'case/corvette/index.html',
+  'case/nike/index.html',
+  'case/airbnb/index.html',
+  'case/discovery-kids/index.html',
+  'case/rock-in-rio/index.html'
 ];
 
 const mapFolders = folders.map(filename => {
@@ -66,7 +86,7 @@ module.exports = {
     ...mapFolders,
 
     new CnameWebpackPlugin({
-      domain: 'chrisrossharris.com'
+      domain: 'bizar.ro'
     }),
 
     new CopyWebpackPlugin([
