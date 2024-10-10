@@ -16,7 +16,7 @@
 
 .home__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); // Flexible grid layout
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); // Flexible grid layout
   gap: 1rem; // Adjust the gap between items
   list-style: none;
   padding: 0;
@@ -60,14 +60,13 @@
 .home__link__title {
   display: none;
   position: absolute;
-  bottom: 50%;
+  bottom: 10%;
   left: 50%;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   white-space: nowrap;
 }
