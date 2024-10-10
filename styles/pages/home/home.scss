@@ -63,14 +63,14 @@
 
 .home__item {
   font: 15rem/1 $font-neue-haas-unica;
-  letter-spacing: -.05em;
+  letter-spacing: -.02em;
   font-kerning: normal;
   white-space: nowrap;
 
   @include media('<=phone') {
     font-size: 4rem;
-    line-height: -.04em;
-    letter-spacing: -.04em;
+    line-height: -.02em;
+    letter-spacing: -.02em;
   }
 }
 
